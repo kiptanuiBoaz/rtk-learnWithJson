@@ -19,7 +19,7 @@ const Counter = () => {
             <div style={{fontSize:"2rem"}}><button onClick={()=>dispatch(increment())}>+</button></div>
             <div style={{fontSize:"2rem"}}><button onClick={()=>dispatch(decrement())}>-</button></div>
             <input
-               style={{fontSize:"2rem"}}
+                style={{fontSize:"2rem"}}
                 value={incrementAmount}
                 onChange={(e)=> setIncrementAmount(e.target.value)}
             />
